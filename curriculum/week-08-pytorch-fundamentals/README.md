@@ -36,6 +36,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4611` — Train a neural network with a deep-learning framework: automatic differentiation, optimizers, batched data loading and checkpointing. |
+| Industry | Take a training loop from one machine to another with a different device and keep it reproducible — seeded, checkpointed, and restartable from the saved weights alone. |
+| Beyond the bar | The reference solutions are published in full with the reasoning behind each line, including why this course seeds a local `torch.Generator` rather than the global RNG so that test order cannot change a result — `exercises/SOLUTIONS.md` |
+
+---
+
 ## Prerequisites
 
 - **Week 7 complete.** In particular, you have the NumPy MLP-on-MNIST notebook checked into your `crunch-ai-portfolio-<yourhandle>` repo with a verified gradient check and ≥95% test accuracy. You know what `dW1 = X.T @ dZ1` means and why the chain rule produces it. Week 8 builds on that intuition; you will see the framework recover those same gradients, automatically, in seconds.

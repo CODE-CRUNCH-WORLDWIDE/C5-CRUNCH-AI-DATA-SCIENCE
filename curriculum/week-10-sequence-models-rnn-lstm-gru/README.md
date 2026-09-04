@@ -41,6 +41,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | Past the outcome set: none of the three courses C5 stands in for requires recurrent sequence models. The nearest claim is the neural-network unit of `CAP 4611`, which this week extends to data with a time axis. |
+| Industry | Choose between two architectures for a real workload on measured evidence — matched parameter counts, identical training budgets, wall-clock and validation loss reported side by side. |
+| Beyond the bar | The vanishing gradient is measured rather than asserted: the learner reproduces the gradient-norm-by-timestep curve from Pascanu, Mikolov and Bengio 2013 on their own machine, then watches the LSTM cell state delay the decay — `challenges/challenge-01-gradient-norms-by-depth.md` |
+
+---
+
 ## Prerequisites
 
 - **Week 9 complete.** The CNN exercises, the transfer-learning mini-project, the bare PyTorch loop. If you have not pushed the Week 9 CIFAR-10 classifier to your portfolio repo, finish that first; Week 10 builds on the same `nn.Module` reflexes.

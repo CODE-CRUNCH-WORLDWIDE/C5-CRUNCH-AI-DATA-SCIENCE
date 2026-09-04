@@ -35,6 +35,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4770` — Cluster analysis and dimensionality reduction on unlabelled data, with a defended choice of the number of clusters. |
+| Industry | Tell a stakeholder who asked for customer segments whether the segments are real, on evidence, including when the honest answer is that the data does not cluster. |
+| Beyond the bar | A full lecture on when the method is the wrong answer — the elbow plot with no elbow, clusters that move under reseeding, the segmentation that was a classification problem all along — `lecture-notes/03-when-clustering-is-not-the-answer.md` |
+
+---
+
 ## Prerequisites
 
 - **Weeks 1, 2, 3, 4, and 5 complete.** In particular, you have the Week 5 `ames_boosted.ipynb` checked into your `crunch-ai-portfolio-<yourhandle>` repo with a documented test RMSE that beat Week 4 by ≥10%. That is the signal you can ship a defended supervised model end-to-end. Week 6 is the unsupervised counterpart.

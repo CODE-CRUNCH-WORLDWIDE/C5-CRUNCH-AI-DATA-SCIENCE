@@ -31,6 +31,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4611` — Fit and regularize linear and logistic models, select among them by cross-validation, and report the metrics that fit the problem. |
+| Industry | Set up an experiment that will not embarrass you later: a real baseline, a split that matches how the data arrives, preprocessing inside the pipeline, and a test set touched once. |
+| Beyond the bar | Regression is derived three ways and made to agree — the normal equation, a hand-written gradient-descent loop, and `sklearn` — before the learner is allowed to call the library and believe what it returns — `lecture-notes/02-linear-regression-properly.md` |
+
+---
+
 ## Prerequisites
 
 - **Weeks 1, 2, and 3 complete.** You have a labeled DataFrame on disk from the Week 2 mini-project and at least one publication-quality chart in your portfolio.

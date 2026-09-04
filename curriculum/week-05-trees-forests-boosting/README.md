@@ -33,6 +33,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CS 4780` — Ensemble methods: bagging, random forests and gradient boosting, and interpreting the model that comes out of them. |
+| Industry | Beat the incumbent model on a tabular problem by a margin worth shipping, and attribute the lift to named choices rather than to a hyperparameter sweep nobody can reproduce. |
+| Beyond the bar | Three importance methods are computed on the same fitted model and made to disagree on purpose — split-gain, permutation and SHAP — and the learner has to write why the disagreement is the interesting part — `challenges/challenge-01-feature-importance-vs-shap.md` |
+
+---
+
 ## Prerequisites
 
 - **Weeks 1, 2, 3, and 4 complete.** In particular, you have the Week 4 `ames.ipynb` checked into your `crunch-ai-portfolio-<yourhandle>` repo, with a documented test RMSE in dollars. That number is the bar this week.

@@ -89,7 +89,7 @@ Add a *third* model: a GRU at the same parameter count. The Week 10 mini-project
 ## Acceptance criteria
 
 - [ ] `challenge-02-solution.py` runs end-to-end (trains both models, generates the plots and samples).
-- [ ] `python -m py_compile challenge-02-solution.py` succeeds.
+- [ ] `python -m py_compile challenge-02.py` succeeds.
 - [ ] `challenge-02-writeup.md` is 350-500 words; embeds two plots and two samples.
 - [ ] Parameter counts are reported; they are within 50% of each other.
 - [ ] `torch.manual_seed(42)` is set at the top of the script.

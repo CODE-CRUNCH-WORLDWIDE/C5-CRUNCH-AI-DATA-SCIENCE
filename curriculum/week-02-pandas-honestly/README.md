@@ -30,6 +30,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4770` — Prepare real data for analysis: correct the types, resolve the missing values, and integrate sources that disagree about their keys. |
+| Industry | Take three exports from three teams that almost agree, produce one validated table, and explain the row-count change to the person who owns the data before anybody models it. |
+| Beyond the bar | It teaches the warning rather than the workaround — the actual `SettingWithCopyWarning` text and what pandas is warning about underneath it, then why an `apply` is a Python loop wearing a method call — `lecture-notes/03-the-apply-trap-and-when-to-vectorize.md` |
+
+---
+
 ## Prerequisites
 
 - **Week 1 complete.** You should not still be Googling `.shape` vs `.size`. The image-filter mini-project should be pushed to your portfolio.

@@ -43,6 +43,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | Past the outcome set: attention and the transformer post-date the syllabus of all three courses C5 stands in for. The closest any of them comes is the neural-network unit of `CS 229`. |
+| Industry | Read a model architecture line by line and say what each block does, then justify replacing a working model with a newer one by measuring both instead of citing the paper. |
+| Beyond the bar | A working decoder-only transformer the learner trains on the same corpus as the previous week's LSTM, at matched parameter count, and reports the margin instead of assuming it — `lecture-notes/03-decoder-only-and-mini-gpt.md` |
+
+---
+
 ## Prerequisites
 
 - **Week 10 complete.** The LSTM exercises, the char-LM mini-project, the sampled passages at three temperatures. The Week 11 mini-project loads the same data pipeline; if your Week 10 code is broken, your Week 11 code will not run.

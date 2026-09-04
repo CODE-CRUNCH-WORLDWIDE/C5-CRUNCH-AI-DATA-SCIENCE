@@ -77,7 +77,7 @@ In `challenge-02-writeup.md` (about 300 words), cover:
 ## Acceptance criteria
 
 - [ ] `challenge-02-solution.py` runs end-to-end. Total wall-clock: ~60 minutes on CPU, ~10 minutes on a Colab T4.
-- [ ] `python -m py_compile challenge-02-solution.py` succeeds.
+- [ ] `python -m py_compile challenge-02.py` succeeds.
 - [ ] `challenge-02-results.csv` has 20 rows plus the header.
 - [ ] `challenge-02-samples.txt` has six labeled passages.
 - [ ] `challenge-02-curves.png` shows two lines.

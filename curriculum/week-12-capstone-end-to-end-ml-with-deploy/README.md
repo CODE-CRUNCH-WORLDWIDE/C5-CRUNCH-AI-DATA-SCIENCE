@@ -48,6 +48,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4611` — Carry a complete machine-learning project end to end: framing, data, baseline, model, held-out evaluation, and a written defence of the result. |
+| Industry | Hand a model over: a public URL somebody can call, a pinned environment that rebuilds from a fresh clone, a written record of what the model must not be used for, and a handoff document for whoever is paged next. |
+| Beyond the bar | The model card, the dataset card and the slice-based fairness audit are graded artifacts carrying a quarter of the score — a thorough card on a modest model outranks a strong accuracy number with no card — `lecture-notes/02-evaluation-fairness-and-model-cards.md` |
+
+---
+
 ## Prerequisites
 
 - **All of Weeks 1-11.** This is the capstone; everything is on the table. You will use `pandas` (W2), `matplotlib` (W3), `scikit-learn` (W4, W5), `PyTorch` (W7-W11) or one of the high-performance tabular libraries (`xgboost`, `lightgbm`; introduced as references in W5). You will use cross-validation (W4), regularization (W4, W7), train/val/test splits (W4), and the bias-variance vocabulary (W4) on the daily. If any of those words feel cold, re-read the relevant week's lecture-1 file before Monday.

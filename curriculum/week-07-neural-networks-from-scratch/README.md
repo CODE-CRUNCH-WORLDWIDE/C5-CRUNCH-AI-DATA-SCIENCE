@@ -33,6 +33,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CS 229` — Neural networks: the forward pass, backpropagation derived from the chain rule, and training by stochastic gradient descent. |
+| Industry | Debug a model that trains but does not learn, by checking the analytical gradient against a numerical estimate rather than by changing the learning rate and hoping. |
+| Beyond the bar | The learner writes the autograd engine itself — a reverse-mode differentiation engine over a computation graph, built before `loss.backward()` is ever called — `challenges/challenge-02-write-your-own-autograd.md` |
+
+---
+
 ## Prerequisites
 
 - **Weeks 1, 2, 3, 4, 5, and 6 complete.** In particular, you have the Week 6 segmentation notebook checked into your `crunch-ai-portfolio-<yourhandle>` repo with a defended `k`, a three-panel 2D embedding, and an honest paragraph. That is the signal you can ship an unsupervised analysis end-to-end. Week 7 is the first deep-learning artifact.

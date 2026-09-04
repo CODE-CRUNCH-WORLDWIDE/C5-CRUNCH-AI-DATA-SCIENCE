@@ -110,7 +110,7 @@ Train a slightly larger model (`n_layers = 6`, `n_heads = 6`, the mini-project's
 ## Acceptance criteria
 
 - [ ] `challenge-01-solution.py` runs end-to-end (trains the small transformer, extracts attention weights, saves three heatmap PNGs).
-- [ ] `python -m py_compile challenge-01-solution.py` succeeds.
+- [ ] `python -m py_compile challenge-01.py` succeeds.
 - [ ] `challenge-01-writeup.md` is 150-250 words; embeds three heatmaps; describes each; proposes a hypothesis for at least one.
 - [ ] Three heatmap PNGs are in the same directory.
 - [ ] `torch.manual_seed(42)` is set at the top of the script.

@@ -35,6 +35,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4630` — Perception with neural networks: convolutional architectures, and reusing a representation trained on another task. |
+| Industry | Hit an accuracy target on somebody's image problem inside a day by starting from a pretrained backbone, and know which layers to unfreeze and at what learning rate. |
+| Beyond the bar | The receptive field is computed on paper and then verified against the gradient of the output with respect to the input, so the architecture the learner drew has to agree with the model that is running — `challenges/challenge-01-receptive-field.md` |
+
+---
+
 ## Prerequisites
 
 - **Week 8 complete.** The bare PyTorch training loop, `nn.Module` subclassing, `DataLoader` semantics, `state_dict` save and load. If you have not pushed the Week 8 FashionMNIST classifier to your portfolio repo, go back and finish that first; Week 9's exercises assume those reflexes.

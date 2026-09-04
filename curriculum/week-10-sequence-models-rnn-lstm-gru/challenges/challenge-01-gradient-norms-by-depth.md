@@ -65,7 +65,7 @@ Repeat the measurement for a GRU. The GRU's hidden-state-to-hidden-state Jacobia
 ## Acceptance criteria
 
 - [ ] `challenge-01-solution.py` runs end-to-end and produces both PNG plots.
-- [ ] `python -m py_compile challenge-01-solution.py` succeeds.
+- [ ] `python -m py_compile challenge-01.py` succeeds.
 - [ ] `challenge-01-writeup.md` is 150-250 words; embeds both plots; reports the four numerical claims (RNN start/end gradients, LSTM start/end gradients).
 - [ ] Both plots use a log-scale y-axis.
 - [ ] `torch.manual_seed(42)` is set at the top of the script.

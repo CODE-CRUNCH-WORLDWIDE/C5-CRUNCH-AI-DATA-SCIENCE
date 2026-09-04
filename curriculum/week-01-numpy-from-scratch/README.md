@@ -26,6 +26,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4770` — Represent a dataset in the numeric form every later method operates on, and reason about what that representation costs in memory and in precision. |
+| Industry | Turn a per-element Python loop over a dataset into a vectorized array operation, and be able to say what the rewrite bought in time and memory before you commit it. |
+| Beyond the bar | The week bans the `for` loop outright and makes an RGB image the working object — three transformed PNGs produced with nothing but slices, broadcasts and reductions, no PIL and no OpenCV — `challenges/challenge-01-image-filter-pure-numpy.md` |
+
+---
+
 ## Prerequisites
 
 - **C1 Weeks 1–14** completed, or equivalent. You should be comfortable with functions, classes, list comprehensions, exceptions, and `pip` / `venv`.

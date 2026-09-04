@@ -29,6 +29,16 @@ By the end of this week, you will be able to:
 
 ---
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CAP 4770` — Explore a dataset visually before modelling it, and choose an encoding that represents the data faithfully. |
+| Industry | Produce the chart that goes in front of the people who will decide something from it, and defend every axis choice when one of them challenges it. |
+| Beyond the bar | It grades the critique as well as the chart — the learner reproduces a published *Financial Times* graphic, then writes a page on where the original misleads, against a named list of four failure modes — `challenges/challenge-01-recreate-an-FT-chart.md` |
+
+---
+
 ## Prerequisites
 
 - **Weeks 1 and 2 complete.** You should have a cleaned `DataFrame` on disk from the Week 2 mini-project — we will plot it.
